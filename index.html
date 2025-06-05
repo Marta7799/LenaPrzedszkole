@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magiczna Strona Programisty</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>👨‍💻 Co robi programista?</h1>
+    <p>Programista mówi komputerowi co ma robić!</p>
+
+    <button onclick="pokazYT()">🎵 Zagraj piosenkę z YouTube</button>
+    <button onclick="zmienKolor()">Click!</button>
+    <button onclick="pokazPanda()">Show Panda</button>
+    <button onclick="pokazGeparda()">Show Cheetah</button>
+    <button onclick="pokazTygrysa()">Show Tiger</button>
+    <div id="panda"></div>
+    <div id="gepard"></div>
+    <div id="tygrys"></div>
+
+    <div id="yt-wrapper" style="margin-top: 20px; display: none">
+      <iframe
+        width="300"
+        height="200"
+        id="yt-frame"
+        src=""
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen
+      ></iframe>
+    </div>
+
+    <h2>🎯 Catch face!</h2>
+    <p>Clik before it disapeare!</p>
+    <div id="game-area"></div>
+    <p>Punkty: <span id="score">0</span></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>
