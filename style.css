@@ -14,6 +14,13 @@ button {
   border-radius: 10px;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
+.animals {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 #panda {
   margin-top: 30px;
   height: 200px;
@@ -23,6 +30,14 @@ button {
   height: 200px;
 }
 #tygrys {
+  margin-top: 30px;
+  height: 200px;
+}
+#pies {
+  margin-top: 30px;
+  height: 200px;
+}
+#dinozaur {
   margin-top: 30px;
   height: 200px;
 }

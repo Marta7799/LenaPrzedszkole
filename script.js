@@ -16,9 +16,17 @@ function pokazTygrysa() {
   document.getElementById("tygrys").innerHTML =
     '<img src="./images/tygrys.jpg" width="200">';
 }
+function pokazPsa() {
+  document.getElementById("pies").innerHTML =
+    '<img src="./images/pies.jpg" width="200">';
+}
+function pokazDinozaura() {
+  document.getElementById("dinozaur").innerHTML =
+    '<img src="./images/dinozaur.jpg" width="200">';
+}
 function pokazYT() {
   const ytFrame = document.getElementById("yt-frame");
-  ytFrame.src = "https://www.youtube.com/embed/-bTpp8PQSog?autoplay=1"; // <-- podmień ID na inne jeśli chcesz
+  ytFrame.src = "https://www.youtube.com/embed/ccEpTTZW34g?autoplay=1"; // <-- podmień ID na inne jeśli chcesz
   document.getElementById("yt-wrapper").style.display = "block";
 }
 
